@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      
-      <h1>React Tailwind</h1>
+      <Header></Header>
+      <h className='text-6xl'>React Tailwind</h>
     </div>
   );
 }
